@@ -125,16 +125,18 @@ const styles = StyleSheet.create({
     alignItems: 'center', // Center the input fields
   },
   input: {
-    height: 45,
-    borderColor: '##ddd',
-    borderWidth: 1,
+    width: "90%",
+    height: 50,
+    backgroundColor: "#fff",
+    borderRadius: 8,
+    paddingHorizontal: 15,
     marginBottom: 15,
-    paddingLeft: 10,
-    borderRadius: 10,
-    width: '90%',
-    alignSelf: 'center',
-    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: "#ddd",
+    fontSize: 16,
+    color: "#333",
   },
+
 
   button: {
     backgroundColor: '#2196F3',
