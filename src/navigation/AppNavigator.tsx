@@ -21,6 +21,9 @@ export type RootStackParamList = {
   NotificationsScreen: undefined;
   LoginScreen: undefined; // Added LoginScreen
   WatchScreen: undefined;
+  HeartRateScreen: undefined;
+  BloodPressureScreen: undefined;
+  TemperatureScreen: undefined;
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -28,7 +31,7 @@ const Stack = createStackNavigator<RootStackParamList>();
 const AppNavigator: React.FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Register">
+      <Stack.Navigator initialRouteName="HomeScreen">
         <Stack.Screen
           name="Register"
           component={RegisterScreen}
